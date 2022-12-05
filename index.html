@@ -4,6 +4,266 @@
 
     </head>
     <body>
-        <h1>Headding1 <h6>heading 6</h1> </body></h6>
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+        <h5>Heading 5</h5>
+        <h6>Heading 6</h6>
+
+        <p>
+            This paragraph
+            contains a lot of lines
+            in the source code,
+            but the browser 
+            ignores it.
+        </p>
+
+        <p>
+            This paragraph
+            contains&nbsp;&nbsp;&nbsp;&nbsp; a lot of lines
+            in the source code,
+            <br></br><br/>but the browser 
+            ignores it.
+        </p>
+
+        <p>
+            <b>This</b><i>paragraph</i>
+            contain<sub>s</sub> a lot of line<sup>s</sup>
+            in the source code, <br /> <hr />
+            but the browser ignores it.
+        </p>
+
+        <p>
+            This paragraph<br>
+            <b>this</b> <i>paragraph</i>
+            <u>contains</u>
+            contains&nbsp;&nbsp;&nbsp;&nbsp; a lot of lines
+            in the source code,
+            <br></br><br/>but the browser 
+            ignores it.
+        </p>
+
+        <!--how to make list-->
+        <ul>  
+            <li>Coffee</li>  
+            <li>Tea</li>  
+            <li>Milk</li>
+        </ul>
+
+        <ol>  
+            <li>Coffee</li>  
+            <li>Tea</li>  
+            <li>Milk</li>
+        </ol>
+
+        <dl>  
+            <dt>Coffee</dt>  
+            <dd>- black hot drink</dd>  
+            <dt>Milk</dt>  
+            <dd>- white cold drink</dd>
+        </dl>
+        
+        <!-- how to put link-->
+        <a href="https://www.google.com/" 
+        target="_blank">Visit Google</a>
+        <br>
+        <a href="https://www.google.com/" 
+        target="_self">Visit Google</a>
+        <br>
+        <a href="/test.html/" 
+        target="_self">Visit test</a>
+        <br>
+        <a href="#test" 
+        target="_self">Visit test#</a>
+
+        <img src="pic01.jpg" alt="Girl in a jacket"        
+         style="width:50px;height:50px;" title="Girl in a jacket" />
+
+         <figure>
+            <img src="pic01.jpg" alt="Girl in a jacket"        
+             style="width:50px;height:50x;" title="Girl in a jacket" />
+             <br />
+             <figcaption>Girl in a jacket</figcaption>
+        <figure>
+
+            <table border="2" width="100%">  
+                <tr>    
+                    <th>Company</th>   
+                     <th>Contact</th>    
+                     <th>Country</th>  
+                </tr>  
+                 <tr>   
+                     <td>Alfreds Futterkiste</td>    
+                     <td>Maria Anders</td>    
+                     <td>Germany</td>  
+                </tr>
+            </table>
+
+            <table border="2" width="100%">
+                <tr>
+                    <th></th>
+                    <thscope="col">Saturday</th>
+                    <thscope="col">Sunday</th>
+                </tr>
+                <tr>
+                    <thscope="row">Tickets sold:</th>
+                    <td>120</td>
+                    <td>135</td>
+                </tr>
+                <tr>
+                    <thscope="row">Total sales:</th>
+                    <td>$600</td>
+                    <td>$675</td>
+                </tr>
+            </table>
+
+            <table border="2" width="100%">
+                <tr>
+                    <th></th>
+                    <th>9am</th>
+                    <th>10am</th>
+                    <th>11am</th>
+                    <th>12am</th>
+                </tr>
+                <tr>
+                    <th>Monday</th>
+                    <td colspan="2">Geography</td>
+                    <td>Math</td>
+                    <td>Art</td>
+                </tr>
+            </table>
+
+            <table border="2" width="100%">
+                <tr>
+                    <th></th>
+                    <th>ABC</th>
+                    <th>BBC</th>
+                    <th>CNN</th>
+                </tr>
+                <tr>
+                    <th>6pm - 7pm</th>
+                    <td rowspan="2">Movie</td>
+                    <td>Comedy</td>
+                    <td>News</td>
+                </tr>
+                <tr>
+                    <th>7pm - 8pm</th>
+                    <td>Sport</td>
+                    <td>Current Affairs</td>
+                </tr>
+            </table>
+
+            <table border="2" width="100%">
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Income</th>
+                        <th>Expenditure</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>1st January</th>
+                        <td>250</td>
+                        <td>36</td>
+                    </tr>
+                    <tr>
+                        <th>2nd January</th>
+                        <td>285</td>
+                        <td>48</td>
+                    </tr>
+                    <!-- additional rows as above -->
+                    <tr>
+                        <th>31st January</th>
+                        <td>129</td>
+                        <td>64</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td></td>
+                        <td>7824</td>
+                        <td>1241</td>
+                    </tr>
+                </tfoot>
+            </table>
+
+            <form action="#">  
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname"><br>  
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname"><br>
+                <label for="pass">Password:</label><br>
+                <input type="password">
+                <br>
+                <label for="testtxtxrea">test textarea:</label><br>
+                <textarea id="texttxtxrea" rows="10"></textarea>
+                <br>
+                <label for ="r1">radio value m</label>
+                <input type="radio" id="r1" value="M" name="radio_test">
+                <label for ="r1">radio value w</label>
+                <input type="radio" id="r1" value="W" name="radio_test">
+                <br><br>
+
+                <input type="checkbox">
+                <br>
+                <select>
+                    <option selected disabled>choose</option>
+                    <option value="1">red</option>
+                    <option value="2">blue</option>
+                    <option value="3">yellow</option>
+                </select>
+                <br>
+                <input type="date"><br>
+                <input type="">
+                <input type="datetime=local">
+                <br>
+                <input type="number">
+                <br>
+        
+
+
+                <input type="submit">
+                <input type="reset">
+
+                <button type="reset">Reset</button>
+                <button type="submit">Submit</button>
+            </form>
+
+            <form>  
+                <br>
+                <label for="username">Username:</label>  
+                <br>  
+                <input type="text" id="username" name="username">  
+                <br>  
+                <label for="pass">Password:</label>   
+                <br>
+                <input type="password" id="pass" name="password">
+            </form>
+
+            <form> 
+                <br>
+                 <textarea rows="4" cols="40"></textarea>
+            </form>
+
+            <form>
+                <input type="radio" id="html" name="fav_language" value="HTML">  
+                <label for="html">HTML</label><br>  
+                <input type="radio" id="css" name="fav_language" value="CSS">  
+                <label for="css">CSS</label><br>  
+                <input type="radio" id="javascript" name="fav_language" value="JavaScript">  
+                <label for="javascript">JavaScript</label>
+            </form>
+
+
+            <form>
+                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">  
+                <label for="vehicle1"> I have a bike</label><br>  
+                <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">  
+                <label for="vehicle2"> I have a car</label><br>  
+                <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">  
+                <label for="vehicle3"> I have a boat</label>
+            </form>
     </body>
 </html>
